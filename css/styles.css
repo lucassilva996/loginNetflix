@@ -1,0 +1,55 @@
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+input,
+button {
+    height: 65px;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+body {
+    background: #181818;
+}
+
+input {
+    background: #2e2e2e;
+    border: 0;
+    margin-bottom: 2px;
+}
+
+input:hover {
+    border: 1px solid #E50914;
+}
+
+button {
+    background-color: #181818;
+    border: 1px solid #4d4d4d;
+    color: #AAA;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #E50914;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px auto;
+    color: #AAA
+}
+
+a:hover {
+    border: 1px solid red;
+}
+
+b {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px auto;
+    color: brown
+}
